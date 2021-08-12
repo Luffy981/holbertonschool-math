@@ -3,14 +3,14 @@
 #include <math.h>
 /**
  * struct sequence - Struct to sequence
- * @a: Real number
+ * @elt: Real number
  * @next: Imaginary number
  *
  * Description: Struct  to complex number
  */
 typedef struct sequence
 {
-	double a;
+	double elt;
 	t_cell next;
 } t_cell;
 
